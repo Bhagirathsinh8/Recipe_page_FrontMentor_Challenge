@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5E4DA;
+}
+
+.main{
+    height: auto;
+    width: 630px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin: auto; 
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.recipe-image{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+
+    /* background-color: blue; */
+}
+
+.recipe-image img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.title{
+    font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title h1{
+    color: #333;
+    margin-bottom: 5px;
+    line-height: 1.2;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.title p{
+    font-size: 16px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding: 10px;
+}
+
+.pinkbox{
+    background-color: #f1c9d3;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.pinkbox ul{
+    /* list-style-type: none; */
+    padding: 15px;
+}
+
+.pinkbox ul li{
+    margin-bottom: 10px;
+}
+
+.pinkbox ul li span{
+    font-weight: bold;
+    color: hsl(24, 5%, 18%)
+}
+
+.ingre{
+    text-align: left;
+    padding: 10px;
+}
+.ingre h2{
+margin-bottom: 10px;
+}
+.ingre ul{
+    color: hsl(14, 45%, 36%);
+}
+.ingre ul li{
+    font-family: "Outfit", serif;
+    font-size: 16px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.ingre ul li span{
+    color: hsl(15, 8%, 21%);
+    margin-bottom: 15px;
+}
+
+hr{
+padding: 10px;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid hsl(24, 5%, 18%);
+}
+
+.instruction{
+    text-align: left;
+    padding: 10px;
+}
+
+.instruction h2{
+    color: hsl(14, 45%, 36%);
+margin-bottom: 10px;
+font-weight: 900;
+}
+.instruction ol{
+    color: hsl(14, 45%, 36%);
+}
+
+.textheadcolor{
+    color: hsl(14, 45%, 36%);
+    font-weight: 900;
+    font-size: large;
+}
+
+.instruction ol li{
+    font-family: "Outfit", serif;
+    font-size: 16px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.instruction ol li span{
+    color: hsl(15, 8%, 21%);
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.nutritions{
+    text-align: left;
+    padding: 10px;
+}
+
+.nutritions h2{
+    color: hsl(14, 45%, 36%);
+}
+
+.nutritions table{
+    margin-bottom: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.nutritions table tr td{
+    border-spacing: 55px ;
+    padding: 20px;
+}
+
+.te{
+    color:hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+    font-weight: 900;
+}
+
+.b-b{
+    border-bottom: 1px solid #333;
+}
+
+@media only screen and (max-width: 630px){
+    .main{
+        width: 100%;
+    }
+}
